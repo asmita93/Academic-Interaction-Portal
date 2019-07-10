@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "adminlogin";
+}
+
+<link rel="stylesheet" href="content/bootstrap.css" />
+<style type="text/css">
+   
+    .col-sm-4 {
+        /*border-radius: 25px;*/
+        -moz-border-radius: 25px;
+        box-shadow: 10px 10px 5px rgba(136, 168, 203, 0.28);
+        -moz-box-shadow: 10px 10px 5px rgba(136, 168, 203, 0.28);
+        filter: alpha(opacity=60);
+        margin-top: 75px;
+    }
+
+    .row {
+        height: 500px;
+    }
+
+
+    a:hover {
+        color: red;
+    }
+</style>
+
+<body>
+    <section>
+        <div class="row">
+            <div class="col-sm-3">
+
+            </div>
+            <div class="col-sm-5">
+
+            </div>
+            <div class="col-sm-4" style="height:400px;">
+                <form method="post">
+                    <table style="width:100%" cellpadding="12">
+                        <tr>
+                            <td colspan="2">
+                                <img src="~/download.jpg" style="width:363px; height:100px;" />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>USER ID: </b></td>
+
+                            <td>
+                                <input type="text" name="uid" class="form-control" placeholder="Enter userid" style="width:235px;" required>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>PASSWORD: </b></td>
+                            <td><input type="password" class="form-control" name="pwd" placeholder="Enter password" style="width:235px;" required><br /></td>
+
+                        </tr>
+
+
+
+                        <tr>
+                            <td><input type="submit" value="LOGIN" class="btn btn-primary"></td>
+                            <td><input type="reset" value="RESET" class="btn btn-primary"></td>
+                        </tr>
+                    </table>
+                    <br />
+
+                    @Html.ActionLink("Register", "register", "ano") |
+                    @Html.ActionLink("Forgot Password", "forgotpassword", "ano")
+                    <h4>@ViewBag.msg</h4>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+

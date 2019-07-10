@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "pregister";
+}
+
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style type="text/css">
+    /*dark background to support form theme*/
+    body {
+        background: url("/abs6.jpg");
+    }
+
+    .wrapper {
+        width: 420px;
+        margin: auto;
+    }
+
+    h1 {
+        padding: 30px 0px 0px 0px;
+        font: 25px Oswald;
+        color: #1A878F;
+        text-transform: uppercase;
+        text-shadow: #000 0px 1px 5px;
+        margin: 0px;
+    }
+
+    p {
+        font: 13px Open Sans;
+        color: #28D2DE;
+        text-shadow: #000 0px 1px 5px;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 15px 0px 15px 8px;
+        border-radius: 5px;
+        box-shadow: inset 4px 6px 10px -4px rgba(0,0,0,0.3), 0 1px 1px -1px rgba(255,255,255,0.3);
+        background: rgba(0,0,0,0.2);
+        color: #58d9e2;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#28D2DE), to(#1A878F));
+        background-image: -webkit-linear-gradient(#28D2DE 0%, #1A878F 100%);
+        background-image: -moz-linear-gradient(#28D2DE 0%, #1A878F 100%);
+        background-image: -o-linear-gradient(#28D2DE 0%, #1A878F 100%);
+        background-image: linear-gradient(#28D2DE 0%, #1A878F 100%);
+        font: 14px Oswald;
+        color: #FFF;
+        text-transform: uppercase;
+        text-shadow: #000 0px 1px 5px;
+        border: 1px solid #000;
+        opacity: 0.7;
+        -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+        -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+        border-top: 1px solid rgba(255,255,255,0.8) !important;
+        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.2)));
+    }
+
+    input:focus {
+        box-shadow: inset 4px 6px 10px -4px rgba(0,0,0,0.7), 0 1px 1px -1px rgba(255,255,255,0.3);
+        background: rgba(0,0,0,0.3);
+    }
+
+    input[type="submit"]:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+   
+    input:required:invalid, input:focus:invalid {
+        background-image: url(/invalid.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+
+    input:required:valid {
+        background-image: url(/valid.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+</style>
+<div class="wrapper">
+    <h1>Register For An Account</h1>
+    <p>
+        To sign-up for an account please provide us with some basic information using
+        the registration form below. Please use valid credentials.
+    </p>
+    <form class="form" method="post">
+        <input type="text" class="name" placeholder="Please enter your first and last name." required="required" name="name" pattern="[a-zA-Z]*">
+
+        <br /><br />
+        <input type="email" class="email" placeholder="Please enter your current email address." required="required" name="email">
+        <br />
+        <br />
+        <input type="text" class="userid" placeholder="Please enter userid." required="required" name="userid">
+        <br />
+        <br />
+        <input type="password" class="password" placeholder="Please enter your new Password." required="required" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers" name="pwd">
+
+        <br />
+
+        <br />
+        <input type="text" class="regd" placeholder="Please enter Student Registration no." required="required" pattern="[0-9]{11}" name="regno">
+
+        <br /><br />
+        <input type="submit" class="btn-btn primary" value="Register">
+        <h4>@ViewBag.msg</h4>
+    </form>
+</div>
+
+
+
+
+

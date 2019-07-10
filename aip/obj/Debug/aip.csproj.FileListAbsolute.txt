@@ -1,0 +1,165 @@
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\aip.dll.config
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\aip.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\aip.pdb
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Antlr3.Runtime.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\EntityFramework.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\EntityFramework.SqlServer.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Google.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Web.Infrastructure.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Newtonsoft.Json.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Owin.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Helpers.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Mvc.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Optimization.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Razor.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.Deployment.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.Razor.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\WebGrease.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Helpers.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Mvc.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Optimization.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.Razor.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.Deployment.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\System.Web.WebPages.Razor.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Newtonsoft.Json.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Antlr3.Runtime.pdb
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\EntityFramework.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\EntityFramework.SqlServer.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Google.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\obj\Debug\aip.csprojResolveAssemblyReference.cache
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\obj\Debug\aip.dll
+c:\users\poulami bera\documents\visual studio 2013\Projects\aip\aip\obj\Debug\aip.pdb
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\aip.dll.config
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\aip.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\aip.pdb
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Antlr3.Runtime.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\EntityFramework.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\EntityFramework.SqlServer.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Newtonsoft.Json.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Owin.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Helpers.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Mvc.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Optimization.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Razor.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.Razor.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\WebGrease.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Helpers.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Mvc.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Optimization.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.Razor.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\System.Web.WebPages.Razor.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Newtonsoft.Json.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Antlr3.Runtime.pdb
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\EntityFramework.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\EntityFramework.SqlServer.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\obj\Debug\aip.csprojResolveAssemblyReference.cache
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\obj\Debug\aip.dll
+C:\Users\Adyasha Das\Downloads\proj\aip\aip proj\latest aip\aip\aip\obj\Debug\aip.pdb
+C:\Users\akanksha\Documents\New folder\aip\bin\aip.dll.config
+C:\Users\akanksha\Documents\New folder\aip\bin\aip.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\aip.pdb
+C:\Users\akanksha\Documents\New folder\aip\bin\Antlr3.Runtime.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\EntityFramework.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\EntityFramework.SqlServer.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Newtonsoft.Json.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\Owin.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Helpers.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Mvc.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Optimization.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Razor.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.Deployment.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.Razor.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\WebGrease.dll
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Helpers.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Mvc.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Optimization.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.Razor.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.Deployment.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\System.Web.WebPages.Razor.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Newtonsoft.Json.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Antlr3.Runtime.pdb
+C:\Users\akanksha\Documents\New folder\aip\bin\EntityFramework.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\EntityFramework.SqlServer.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\akanksha\Documents\New folder\aip\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\akanksha\Documents\New folder\aip\obj\Debug\aip.csprojResolveAssemblyReference.cache
+C:\Users\akanksha\Documents\New folder\aip\obj\Debug\aip.dll
+C:\Users\akanksha\Documents\New folder\aip\obj\Debug\aip.pdb

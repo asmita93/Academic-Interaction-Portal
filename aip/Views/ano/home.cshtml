@@ -1,0 +1,340 @@
+﻿
+@{
+    ViewBag.Title = "home";
+}
+
+<link rel="stylesheet" href="content/bootstrap.css" />
+<style type="text/css">
+    body { /* background: url("/images/back.jpg");*/
+        background-color: #fff9f9;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-size: cover;
+    }
+    /*.col-sm-3*/
+    #abc {
+        background-image: url(/kk4.jpg);
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        box-shadow: 10px 10px 5px rgba(136, 168, 203, 0.28);
+        -moz-box-shadow: 10px 10px 5px rgba(136, 168, 203, 0.28);
+        filter: alpha(opacity=60);
+        margin-top: 50px;
+        height: 350px;/*400*/
+        width: 260px; /*was actually not there*/
+    }
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+    
+    ul {
+        /*margin: 30px auto;*/
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+
+
+    }
+
+
+
+
+    .round {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+        
+        text-align: center;
+        font-size: 25px;
+        text-shadow: 0 1px 0 rgba(255,255,255,.7);
+        letter-spacing: -.065em;
+        font-family: "Hammersmith One", sans-serif;
+        -webkit-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        -moz-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+        box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+        border-radius: 300px;
+        z-index: 1;
+        border-width: 4px;
+        border-style: solid;
+    }
+
+        .round:hover {
+            width: 130%;
+            height: 130%;
+            left: -15%;
+            top: -15%;
+            font-size: 33px;
+            padding-top: 38px;
+            -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+            -o-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+            -moz-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+            box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+            z-index: 2;
+           text-decoration:none;
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+
+
+
+    a.green {
+      
+        background-color: rgba(1,151,171,1);
+     
+        border-color: rgba(0,63,71,.2);
+        color:#fff9f9;
+    }
+  
+        a.green:hover {
+            color: #fff9f9;
+        }
+
+
+
+    .round span.round {
+        display: block;
+        opacity: 0;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        font-size: 1px;
+        border: none;
+        padding: 40% 20% 0 20%;
+        color: #fff;
+    }
+
+    .round span:hover {
+        opacity: .85;
+        font-size: 16px;
+        -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+        -moz-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+        -o-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+        text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    }
+
+    .green span {
+        background: rgba(0,63,71,.7);
+    }
+    h2 {
+        color: #517528;
+        font-family: "Monotype Corsiva",cursive;
+        font-size: 250%;
+        text-align: center;
+    }
+    .btn {
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        box-shadow: #627fdd 2px 2px 2px;
+        -webkit-box-shadow: #627fdd 2px 2px 2px;
+        -o-box-shadow: #627fdd 2px 2px 2px;
+        -moz-box-shadow: #627fdd 2px 2px 2px;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(136, 168, 203, 0.28);
+        font-size: 150%;/*change it*/
+        color: white;
+        font-family: "Times New Roman" sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 220px;/*230*/
+        height: 55px;/*65*/
+    }
+    a.a1:hover
+    {
+        color:purple;
+    }
+    .recent_news_link{
+        color:rgba(0,63,71,1);
+    }
+    p {
+        color: white;
+        font-family: 'Monotype Corsiva',sans-serif;
+        text-align: center;
+        font-size: 150%;
+    }
+    </style>
+   
+
+<div style="margin-top:50px; height:350px;width:1140px;">
+    <table>
+        <tr>
+            <td style="width:100%">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="~/images/slide0.jpg" alt="Chania" style="height:350px;width:1140px;" />
+                        </div>
+                        <div class="item">
+
+                            <img src="~/images/bg4.jpg" alt="Chania" style="height: 350px; width: 1140px;" />
+
+                        </div>
+
+                     
+                        <div class="item">
+                            <img src="~/images/img2.jpg" alt="Flower" style="height: 350px; width: 1140px;" />
+                        </div>
+
+                        <div class="item">
+                            <img src="~/images/img.jpg" alt="Flower" style="height: 350px; width: 1140px;" />
+                        </div>
+
+                        <div class="item">
+                            <img src="~/images/slide1.jpg" alt="Flower" style="height: 350px; width: 1140px;" />
+                        </div>
+
+                        <div class="item">
+                            <img src="~/images/slide2.jpg" alt="Flower" style="height: 350px; width: 1140px;" />
+                        </div>
+                        <div class="item">
+                            <img src="~/images/top12.jpg" alt="Flower" style="height: 350px; width: 1140px;" />
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+ 
+    <section>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="abc">
+                    <form method="post">
+                        <table style="width:100%" cellpadding="12">
+                            <tr>
+                                <td>
+                                    <h2>PARENT</h2>
+                                    <ul>
+                                        <li>  <a href="~/ano/parentlogin" class="round green"> Login<span class="round"> That is, if you already have an account.</span> </a> </li>
+
+                                    </ul>
+                                    <p>If you dont have an account....</p>
+                                    <ul style="text-align:justify;">
+                                        <li>  <a href="~/ano/pregister" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> Sign Up</a> </li>
+
+                                    </ul>
+                                </td>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-3" style="margin-left: 20px;">
+                <div id="abc">
+                    <table style="width:100%" cellpadding="12">
+                        <tr>
+                            <td>
+                                <h2>FACULTY</h2>
+                                <ul>
+                                    <li>  <a href="~/ano/facultylogin" class="round green"> Login<span class="round"> That is, if you already have an account.</span> </a> </li>
+
+                                </ul>
+                                <p>If you dont have an account....</p>
+
+                                <ul style="text-align:justify;">
+                                    <li>  <a href="~/ano/fregister" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> Sign Up</a> </li>
+
+                                </ul>
+                            </td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+            <div class="col-sm-3" style="margin-left: 20px;">
+                <div id="abc">
+                    <form method="post">
+                        <table style="width:100%" cellpadding="12">
+                            <tr>
+                                <td>
+                                    <h2>STUDENT</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="~/ano/studentlogin" class="round green"> Login<span class="round"> That is, if you already have an account.</span> </a>
+                                        </li>
+                                    </ul>
+                                    <p>If you dont have an account....</p>
+
+                                    <ul style="text-align:justify;">
+                                        <li>  <a href="~/ano/register" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> Sign Up</a> </li>
+
+                                    </ul>
+                                </td>
+
+                            </tr>
+
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div style="float:right;">
+                <div style="min-height:350px; max-height:3500px; max-width:230px; border:thin; border-style:solid;border-color:#999;border-radius:8px; border-top-color:#666;margin-left:5px;margin-top:50px;background-color:white;">
+                    <div style="background-color:#F1F1F1; color:#333; padding-top:4px;border-top-right-radius:8px;border-top-left-radius:8px; padding-left:4px; padding-bottom:5px; font-size:11px; font-family:Arial, Helvetica, sans-serif; font-weight:bold;">
+                        Recent Updates
+                    </div>
+
+                    <marquee onmouseover="this.stop();" onmouseout="this.start();" direction="up" scrollamount="3" style="max-height:260px; padding-top:5px; font-size:14px; font-family:'Courier New', Courier, monospace;">
+
+                        <a class="recent_news_link" href="opportunities/all" target="_blank">Open Opportunities<img src="other_assets/new_3.gif" width="25" height="15" pagespeed_url_hash="3474815480" /></a><br /><br />
+                        <a class="recent_news_link" href="internship" target="_blank"> http://www.kiit.ac.in/</a><br /><br />
+                        <a class="recent_news_link" href="oae" target="_blank">msg2</a><br /><br />
+                        <a class="recent_news_link" href="oae#C++_div" target="_blank">Online Assessment & Certification in C++</a><br /><br />
+                        <a class="recent_news_link" href="out_intern" target="_blank">fdfdfdfffffffffffffff</a><br /><br />
+                        <a class="recent_news_link" href="adaw_gdg" target="_blank">Application Development for Android Wearable with GDG, Bhubaneswar</a><br /><br />
+                        <a class="recent_news_link" href="ges2014" target="_blank">Global Entrepreneurship Summit 2014</a><br /><br />
+                        <a class="recent_news_link" href="children_fest">Children's Fest 2014</a><br /><br />
+                        <a class="recent_news_link" href="noesa" target="_blank">National Odisha Education Summit & Awards 2014 Conducted Successfully</a><br /><br />
+
+
+
+                    </marquee>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+           
+
+
+
+
+     

@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "dailyreport";
+}
+<style type="text/css">
+    li{
+        list-style:none;
+    }
+    #sidebarLeft {
+        width: 155px;
+        float:left;
+        margin-left:80px;
+    }
+    .commonContainerHeader {
+        color: #276600;
+        padding: 4px 8px;
+        border: 1px solid #83A84F;
+        border-bottom: 0px;
+        background: #cbeead url(Images/Container-Header_bkgd.png) repeat-x left center;
+        border-collapse: collapse;
+    }
+    .commonContainer {
+        border: 1px solid #83A84F;
+        border-bottom: 3px solid #83A84F;
+        background: #F7FFED;
+        margin: 0px;
+        padding: 6px 8px;
+        margin-bottom: 12px;
+        position: relative;
+        line-height: 1.4em;
+    }
+    .sidebarList {
+        list-style: none;
+        margin: 2px;
+        padding-left: 0px;
+    }
+        .sidebarList .starLink {
+            background-image: url(/bullet_star.png);
+            background-repeat: no-repeat;
+            background-position: 0px 2px;
+        }
+
+        .sidebarList li {
+            line-height: 1.5em;
+            padding-left: 17px;
+            background-image: url(/bullet_blue.gif);
+            background-repeat: no-repeat;
+            background-position: 2px 4px;
+        }
+</style>
+<div id="sidebarLeft">
+    <div class="commonContainerHeader"><h3>Year</h3></div>
+    <div class="commonContainer">
+        <ul class="sidebarList">
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl00_ListItem1" class="starLink"><a href="#">2010</a></li>
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl02_ListItem1"><a href="#">2011</a></li>
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl03_ListItem1"><a href="#">2012</a></li>
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl04_ListItem1"><a href="#">2013</a></li>
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl05_ListItem1"><a href="#">2014</a></li>
+
+            <li id="ctl00_LeftNavigation1_LeftMenu_ctl06_ListItem1"><a href="#">2015</a></li>
+ 
+        </ul>
+    </div>
+</div>
+            <section>
+                <div class="row">
+            
+                    <div class="col-sm-8">
+
+                        <form method="post">
+                            <table>
+                                <tr>
+                                    <td>DAY 1:</td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="day" cols="100" rows="5" class="form-control"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>DAY 2:</td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="day" cols="100" rows="5" class="form-control"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>DAY 3:</td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="day" cols="100" rows="5" class="form-control"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td>DAY 4:</td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="day" cols="100" rows="5" class="form-control"></textarea></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+
+
+

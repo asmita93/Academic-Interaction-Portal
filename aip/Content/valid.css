@@ -1,0 +1,43 @@
+﻿.form_hint, .required_notification {
+            font-size: 15px;
+        }
+.required_notification {
+         color: #d45252;
+            margin: 5px 0 0 0;
+            display: inline;
+            float: right;
+        }
+ ::-webkit-validation-bubble-message {
+            padding: 1em;
+        }
+
+        .form input:focus:invalid, .form textarea:focus:invalid, .form select:focus:invalid { /* when a field is considered invalid by the browser */
+            box-shadow: 0 0 5px #d45252;
+            border-color: #b03535;
+           
+        }
+
+        .form input:required:valid, .form textarea:required:valid, .form select:required:valid { /* when a field is considered valid by the browser */
+            box-shadow: 0 0 5px #5cd053;
+            border-color: #28921f;
+            
+        }
+	
+
+	.form input:focus + .form_hint {
+	display: inline;
+	}
+    .form_hint {
+	padding: 1px 6px;
+	color: red;
+    z-index: 999;
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display: none;
+	}
+	.form input:required:valid + .form_hint {
+    color:#b6ff00;
+	}
+	/* change form hint color when valid */
+	.form input:required:valid + .form_hint::before {
+	color: #28921f;
+	}

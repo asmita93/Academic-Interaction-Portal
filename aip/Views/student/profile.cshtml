@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewBag.Title = "profile";
+}
+<head>
+    <title></title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+        h2 {
+            text-decoration: underline;
+        }
+
+        body {
+            background-image: url("/img1.jpg");
+        }
+
+        td {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            color: blue;
+            font-size:16px;
+           
+        }
+
+        .textbox {
+            height: 35px;
+            width: 350px;
+            background-color: bisque;
+            border-style: dotted;
+            border-width: 0px 0px 1px 0px;
+            border-color: darkred;
+            outline: 0;
+            margin-left:50px;
+        }
+
+        .btn btn-primary {
+            width: 500px;
+            background-color: saddlebrown;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+    @foreach(var i in Model)
+    {
+    <h1 style="text-decoration:underline; font-family:'Baskerville Old Face';color:black;text-align:center;">PROFILE</h1>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+            <h2>ACCOUNT DETAILS:</h2>
+            <table>
+                <tr>
+                    <td>NAME:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+
+                <tr>
+                    <td> ROLL NO:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+
+                <tr>
+                    <td> REG NO:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+                <tr>
+                    <td>USER ID::@i.userid</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="col-sm-2">
+
+            <h2 style="text-align:center"></h2>
+
+
+            @using (Html.BeginForm("profile",
+                        "student",
+                        FormMethod.Post,
+                        new { enctype = "multipart/form-data" }))
+            {
+
+                <img src="../studentimage/@i.img" style="height:200px; width:200px;" />
+                <input type="file" name="file" id="file" /><br />
+                <input type="submit" value="Upload Image" />
+                <br />
+                <br><br>
+                @ViewBag.msg
+            }
+
+        </div>
+
+
+    </div>
+    <br />
+    <div class="rows">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+         
+                <h2>ACADEMIC DETAILS:</h2>
+                <table>
+                    <tr>
+                        <td> COURSE NAME:</td>
+                        <td><select name="course" class="textbox">
+                            <option>BTech</option>
+                                <option>MTech</option>
+                                <option>BTech+MBA</option>
+                            </select></td>
+                    </tr>
+
+                    <tr>
+                        <td> BRANCH:</td>
+                        <td><input class="textbox" type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>SEMESTER:</td>
+                        <td><input class="textbox" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>BRANCH YEAR:</td>
+                        <td><input class="textbox" type="text"></td>
+                    </tr>
+                </table>
+</div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-6">
+            <h2>PERSONAL DETAILS:</h2>
+            <table>
+                <tr>
+                    <td>FATHER NAME:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+                <tr>
+                    <td>FATHER OCCUPATION:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+
+                <tr>
+                    <td> CONTACT NO:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>ADRRESS:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NO:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID:</td>
+                    <td><input class="textbox" type="text"></td>
+                </tr>
+
+            </table>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-7">
+            <input type="submit" value="UPDATE" class="btn btn-primary" style="background-color:black;width:100px;height:40px ;text-emphasis-color:white;color:white;border-color:black;">
+            <input type="reset" value="RESET" class="btn btn-primary" style="background-color: black; width: 100px; height: 40px; text-emphasis-color: white; color: white; margin-left: 10px; border-color: black">
+        </div>
+    </div>
+    }
+</body>

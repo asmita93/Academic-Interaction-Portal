@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "compose";
+}
+
+<style type="text/css">
+   h2{
+       font-size:200%;
+       font-family:'Monotype Corsiva'sans-serif;
+       text-align:center;
+   } 
+   td{
+       padding-bottom:10px;
+       padding-top:10px;
+   }
+</style>
+<section>
+
+    <div class="row" >
+        <div class="col-sm-1"></div>
+
+       
+        <div class="col-sm-8" >
+            <form method="post">
+                <h2>Compose</h2>
+                <table   style="width:100%;">
+                    <tr>
+                        <td><b>To: </b> </td>
+
+                        <td>
+
+                            <input type="text" name="receiverid" class="form-control" style="width:580px">
+
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Subject: </b></td>
+                        <td><input type="text" class="form-control" name="subject" style="width:580px;" /></td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td><b>Message: </b></td>
+                        <td><textarea rows="10" cols="50" style="width:580px;border-radius:4px;" class="form-control" name="msg"></textarea></td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td><b>Attachment: </b></td>
+                        <td><input type="file" name="attachment" style="width:580px;" /></td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Send" class="btn btn-primary" style="width:100px;">
+                        </td>
+                    </tr>
+
+                </table>
+                <br />
+
+
+                <h4>@ViewBag.msg1</h4>
+            </form>
+        </div>
+       
+    </div>
+</section>
